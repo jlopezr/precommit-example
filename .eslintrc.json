@@ -1,0 +1,35 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:es-beautifier/standard"
+    ],
+    "plugins": [
+        "es-beautifier"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-multi-spaces": 2,
+        "camel_case": 2,
+        "no-commented-out-code": 2,
+        "no-single-line-objects": 2,
+        "potential-point-free": 2
+    }
+}
