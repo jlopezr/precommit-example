@@ -19,4 +19,8 @@ function a() {
     return bTopotaMadre;
 }
 
-a();
+function soyUnInutilEscogiendoNombres(paramA, paramB, paramC) {
+    a(paramB, paramC);
+}
+
+module.exports.soyUnInutilEscogiendoNombres = soyUnInutilEscogiendoNombres;
